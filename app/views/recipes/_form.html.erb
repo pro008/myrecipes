@@ -22,13 +22,13 @@
             
             <div class="form-group">
                 <div class="col-sm-offset-2 col-sm-10">
-                    <%= f.submit class: "btn btn-primary btn-lg btn-xlarge" %>
+                    <%= f.submit class: "btn btn-lg btn-xlarge" %>
                 </div>
             </div>
 
         <% end %>
-        <div class="col-sm-4 col-sm-offset-4 colormatch">
-            [ <%= link_to "Cancel request and return to recipes listing", recipes_path %> ]
+        <div class="col-sm-5 col-sm-offset-4 colormatch">
+            [ <%= link_to "Cancel request and return to recipes listing", recipes_path, id:"cancel_panel" %> ]
         </div>
     </div>
 </div>
