@@ -60,6 +60,7 @@ a:hover{
 }
 
 
+// nav bar left
 .c_header__left {
     flex: 1;
     min-width: 1px;
@@ -68,7 +69,7 @@ a:hover{
     align-items: center;
 }
 
-.c_header__left> .dropdown--topics {
+ .dropdown--topics {
     border-right: 1px solid hsla(0,0%,75%,.45);
     position: relative;
     font-size: 13px;
@@ -77,11 +78,23 @@ a:hover{
     border-left: 1px solid hsla(0,0%,75%,.45);
 }
 
-.c_header__left> .dropdown--topics:hover{
+ .dropdown--topics:hover{
     background-color:black;
 }
 .dropdown, .dropup {
     position: relative;
+}
+
+
+// nav bar right
+.c_header__right {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.c_header__right>h4:hover{
+    background-color:black;
 }
 
 
